@@ -1,0 +1,14 @@
+# Không commit dữ liệu
+data/*
+!data/.gitkeep
+
+# Jupyter checkpoint
+**/.ipynb_checkpoints
+
+# Cache hệ thống & IDE
+__pycache__/
+*.pyc
+*.DS_Store
+
+# KaggleHub cache (nếu có)
+~/.cache/kagglehub/

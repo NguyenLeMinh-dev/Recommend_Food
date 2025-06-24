@@ -1,0 +1,5 @@
+numpy
+opencv-python
+scikit-learn
+tensorflow         # hoặc 'keras' nếu bạn cài riêng
+matplotlib
