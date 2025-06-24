@@ -62,6 +62,7 @@ Recommend_Food/
 ```
 ⚠️ Note: The dataset is ~4GB. If you're low on disk space or RAM, it’s recommended to run on Kaggle or Colab instead.
 
+---
 ## 🧠 Features
 - Feature extraction using EfficientNetB0.
 
@@ -70,12 +71,14 @@ Recommend_Food/
 - Displays the query image and top similar results.
 
 - Easily extendable for APIs or mobile apps.
+---
 
 ## 📥 Want to use the dataset locally?
-If you don’t want to download it manually, feel free to open an issue.
-I can provide a direct download link or support with kagglehub.
-However, for convenience, I highly recommend using Kaggle or Colab.
 
+- If you don’t want to download it manually, feel free to open an issue.
+- I can provide a direct download link or support with kagglehub.
+- However, for convenience, I highly recommend using Kaggle or Colab.
+---
 ## 🛠 Requirements
 - See requirements.txt.
 - Key packages:
@@ -90,6 +93,8 @@ scikit-learn
 
 numpy
 ```
+---
+
 ## 🤝 Contributions
 Pull requests and ideas are welcome!
 You're encouraged to contribute improvements such as:
@@ -99,7 +104,7 @@ You're encouraged to contribute improvements such as:
 - Web or mobile integration
 
 - Dataset enhancements
-
+---
 ## 📬 Contact
 - 📧 Email: leminhhu.edu@gmail.com 
 - 💼 GitHub: @NguyenLeMinh-dev
