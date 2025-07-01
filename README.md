@@ -82,16 +82,40 @@ Recommend_Food/
 ## 🛠 Requirements
 - See requirements.txt.
 - Key packages:
-```bash
-tensorflow
+```mermaid
+flowchart LR
+  %%--- Define subgraph
+  subgraph Installation["📦 Installation"]
+    direction TB
+    A[pip install] 
+    B[tensorflow]
+    C[opencv-python]
+    D[matplotlib]
+    E[scikit-learn]
+    F[numpy]
+  end
 
-opencv-python
+  %%--- Connect
+  A --> B
+  A --> C
+  A --> D
+  A --> E
+  A --> F
 
-matplotlib
+  %%--- Style definitions
+  classDef mainNode fill:#34495e,stroke:#ecf0f1,stroke-width:2px,rx:8,ry:8,color:#ecf0f1,font-weight:bold;
+  classDef pkgNode  fill:#2ecc71,stroke:#27ae60,stroke-width:1px,rx:6,ry:6,color:#fff;
+  
+  class A mainNode;
+  class B,C,D,E,F pkgNode;
+  
+  %%--- Optional: style individual links
+  linkStyle 0 stroke:#e74c3c,stroke-width:2px
+  linkStyle 1 stroke:#3498db,stroke-width:2px
+  linkStyle 2 stroke:#f39c12,stroke-width:2px
+  linkStyle 3 stroke:#9b59b6,stroke-width:2px
+  linkStyle 4 stroke:#1abc9c,stroke-width:2px
 
-scikit-learn
-
-numpy
 ```
 ---
 
